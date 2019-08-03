@@ -28,21 +28,21 @@ Proponemos que con esta base de datos personalizada, en caso de no contar con el
 
 La aplicación consiste en crear una casa eligiendo a través de íconos, las caracterísitcas y complementos que contendría su casa ideal, incluyéndo la ubicación de esta (principalmente Ciudad y/o Estado de la República).
 Algunas de las preguntas propuestas para guiar al usuario y obtener la información son:
-Ubicación ideal de tu vivienda.
-Servicios te gustaría que tuviera cerca
-Número de habitaciones.
-Número de baños.
-¿Quieres vestidor?
-¿Prefieres balcón o terraza?
-¿Requieres cuarto de servicio?
-¿Necesitas bodega?
-Número de estacionamientos para tu vivienda.
-Elige las amenidades para tu vivienda.
-¿Requieres área de mascotas?
-¿Qué tipos de servicios para mascotas necesitas?
-¿Prefieres rentar o comprar?
-¿Cuánto te gustaría pagar de renta?
-¿Cuánto podrías pagar por tu vivienda?
+- Ubicación ideal de tu vivienda.
+- Servicios te gustaría que tuviera cerca
+- Número de habitaciones.
+- Número de baños.
+- ¿Quieres vestidor?
+- ¿Prefieres balcón o terraza?
+- ¿Requieres cuarto de servicio?
+- ¿Necesitas bodega?
+- Número de estacionamientos para tu vivienda.
+- Elige las amenidades para tu vivienda.
+- ¿Requieres área de mascotas?
+- ¿Qué tipos de servicios para mascotas necesitas?
+- ¿Prefieres rentar o comprar?
+- ¿Cuánto te gustaría pagar de renta?
+- ¿Cuánto podrías pagar por tu vivienda?
 
 Cabe aclarar que no se presentarían como cualquier encuesta aparecerían de manera órgánica en diferentes momentos.
 
@@ -54,4 +54,8 @@ Mediante la aplicación se van a conseguir y manejar datos delicados y personale
 
 ## PROTOTIPO DE BAJA FIDELIDAD
 
+! [https://raw.githubusercontent.com/MontseRV/hackaton-ibm-BIT/master/images/casa.jpeg]
+
 ## PROTOTIPO DE ALTA FIDELIDAD
+
+! [https://raw.githubusercontent.com/MontseRV/hackaton-ibm-BIT/master/images/Screenshot_2019-08-03%20Figma.png]
