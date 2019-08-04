@@ -90,14 +90,14 @@ function createOrder() {
     } else if(pizza.flavor == 'mexicana'){
       pizzaImg = 'mexicana.jpeg';
     } else {
-      pizzaImg = 'pizza.png';
+      pizzaImg = 'casa.png';
     }
 
     order += `
       <div>
-        <h3>Pizza de ${pizza.flavor}</h3>
-        <p>De tamaño ${pizza.size}</p>
-        <p>Masa: ${pizza.dough}</p>
+        <h3>Tipo de vivienda: ${pizza.flavor}</h3>
+        <p>Baños: ${pizza.size}</p>
+        <p>Preferencia: ${pizza.dough}</p>
       </div>
     `
 
@@ -108,7 +108,7 @@ function createOrder() {
 
   list.innerHTML += `
     <article class="pizza-orden">
-      <h2>Pidieron: </h2>
+      <h2>Generando tu sueño juntos: </h2>
       ${order}
       <div class="pizza-orden__img">
         ${images}
