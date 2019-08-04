@@ -1,0 +1,304 @@
+:root {
+  --primary-color: #76797c;
+  --secondary-color: #3C91E6;
+  --background-color: #FAFFFD;
+  --grid-color: #dbdbdb;
+
+  --title-family: Righteous;
+  --sub-family: Lato;
+}
+/*  Comentario  */
+
+@font-face {
+  font-family: 'starwars';
+  src: url('fonts/Starjedi.ttf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Lato;
+}
+
+
+header {
+  background-color: var(--primary-color);
+  border-bottom: 5px solid var(--secondary-color);
+  height: 100px;
+  width: 100%;
+}
+
+.header__img {
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header__img img {
+  height: 100%;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0 20px;
+  font-family: starwars;
+}
+
+.pedidos {
+  border-bottom: 2px solid var(--grid-color);
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  display: inline-block;
+  height: 70vh;
+  width: 70%;
+  vertical-align: top;
+}
+
+.pedidos__title {
+  font-family: var(--title-family);
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pedidos__pizzas {
+  padding: 20px 40px;
+}
+.desaparecer{
+  border: 2px solid green;
+  margin: 30px;
+}
+.pizza-card {
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 2px 3px 5px 0px black;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 250px;
+  margin: 20px;
+  padding: 60px 0;
+  width: 250px;
+  vertical-align: top;
+  transition: all .4s;
+}
+
+#label-mexicana {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/mexicana.jpeg');
+}
+
+#label-hawaina {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/options/supermercado.jpg');
+}
+
+#label-pastor {
+  background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url('img/options/restaurante.jpg');
+}
+
+.pizza-card:hover {
+  transform: scale(1.05);
+}
+
+.pizza-card:active {
+  border: 5px solid var(--secondary-color);
+  transform: scale(1.03);
+}
+
+.pizza-card.active {
+  border: 5px solid var(--secondary-color);
+  transform: scale(1.03);
+  box-shadow: none;
+}
+
+.radio-input {
+  display: none;
+}
+
+.pizza-card__title {
+  color: white;
+  font-family:Lato;
+  font-size: 40px;
+  text-align: center;
+}
+
+.pizza-card__text {
+  color: white;
+  font-family:Lato;
+  font-size: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.pedidos__add {
+  padding: 40px 0;
+}
+
+.pedidos__label {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.pedidos__select {
+  border-radius: 4px;
+  font-size: 25px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+
+.ordenes {
+  min-height: 30vh;
+  background-color: white;
+}
+
+.add-button {
+  background-color: var(--grid-color);
+  border-radius: 4px;
+  border: 2px solid var(--grid-color);
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  transition: all .2s;
+  vertical-align: middle;
+}
+
+.add-button:active {
+  transform: translateX(10px);
+}
+
+.add-button:focus {
+  outline: none;
+}
+
+/* Checkout */
+.checkout {
+  box-sizing: border-box;
+  background-color: var(--grid-color);
+  display: inline-block;
+  height: 70vh;
+  width: 30%;
+  padding: 0 60px;
+  vertical-align: top;
+  text-align: center;
+}
+.checkout__info {
+  padding: 40px 0;
+  max-height: 60%;
+  overflow-y: scroll;
+}
+
+.checkout__title {
+  font-family: var(--title-family);
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.checkout__article {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.article__title {
+  font-family: Lato;
+  font-size: 1.5rem;
+}
+
+.article__span {
+  font-weight: bold;
+}
+
+.order-button {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  border: 2px solid var(--secondary-color);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  margin: 40px 0;
+  padding: 15px 20px;
+  transition: all .2s;
+  width: 100%;
+}
+
+.order-button.active {
+  display: inherit;
+}
+
+.order-button:active {
+  background-color: white;
+  color: var(--secondary-color);
+  transform: translateY(2px);
+}
+
+.order-button:focus {
+  outline: none;
+}
+
+.pizza-orden {
+  background-color: brown;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 10px 15px;
+  padding: 20px 40px;
+  width: 300px;
+  vertical-align: top;
+}
+
+.pizza-orden__img {
+  margin-top: 10px;
+}
+
+.pizza-orden__img img {
+  height: 100px;
+  width: 100px;
+}
+
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background-color: var(--secondary-color);
+}
+
+
+@media (max-width:425px) {
+  header h1 {
+    color: white;
+    font-size: 16px;
+  }
+
+  .pedidos,
+  .checkout,
+  .ordenes {
+    display: block;
+    height: inherit;
+    width: 100%;
+  }
+
+  .checkout {
+    min-height: 300px;
+    padding: 40px 20px;
+  }
+
+  .pedidos__label {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .add-button {
+    display: block;
+    margin: 20px auto;
+  }
+
+}

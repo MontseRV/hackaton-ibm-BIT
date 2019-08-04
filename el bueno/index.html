@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Developing your HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="pizza.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header>
+      <picture class="header__img">
+        <img src="assets/img/casa.png" alt="Logo del tío Edgar">
+      </picture>
+      <h1>Developing your HOME</h1>
+    </header>
+
+
+    <main>
+        <section id="personal-info" class="desaparecer">
+            <div class="petition">Necesitamos algunos datos para iniciar tu sueño</div>
+            <div class="age">
+                Edad: <select>
+                    <option>18-25</option>
+                    <option>26-35</option>
+                    <option>36-45</option>
+                    <option>46-55</option>
+                    <option>56-65</option>
+                    <option>Más de 65</option>
+                </select>
+            </div>
+            <div class="sex">
+                Sexo: <select>
+                     <option>Mujer</option>
+                     <option>Hombre</option>
+                 </select>
+            </div>
+            <div class="ingre">
+                Ingresos: <select>
+                     <option>$4500-$9000</option>
+                     <option>$10,000-$18,000</option>
+                     <option>$19,000-$30,000</option>
+                     <option>$30,000-$40,000</option>
+                     <option>$41,000-$50,000</option>
+                     <option>$50,000 o más</option>
+                 </select>
+            </div>
+            <div class="people">
+                ¿Cuántas personas van a vivir contigo?: <select>
+                     <option>0</option>
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                     <option>5</option>
+                     <option>Más de 5</option>
+                 </select>
+            </div>
+            <div class="pets">
+                 ¿Cuántas mascotas?: <select>
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>Más de 5</option>
+                  </select>
+             </div>
+             </div>
+         </section>
+        
+      <section class="pedidos">
+        <h2 class="pedidos__title">Creando la casa de tus sueños </h2>
+
+        <form id="pizza-form" class="pedidos__pizzas">
+
+          <section>
+            <input type="text" placeholder="Ingresa la ubicación de tu preferencia" id="location">
+            <br>
+            <label><b>Servicios cercanos</b></label>
+            <label id="label-hawaina" class="pizza-card" for="pizza-hawaina">
+              <div class="pizza-card-info">
+                <!--<h3 class="pizza-card__title">Supermercado</h3>-->
+                <p class="pizza-card__text">Supermercado</p>
+              </div>
+            </label>
+            <input id="pizza-hawaina" class="radio-input" type="radio" name="pizza" value="hawaiana">
+
+            <label id="label-pastor" class="pizza-card" for="pizza-pastor">
+              <div class="pizza-card-info">
+                <!--<h3 class="pizza-card__title">Pastor</h3>-->
+                <p class="pizza-card__text">Restaurante</p>
+              </div>
+            </label>
+            <input id="pizza-pastor" class="radio-input" type="radio" name="pizza" value="pastor">
+<!--
+            <label id="label-mexicana" class="pizza-card" for="pizza-mexicana">
+              <div class="pizza-card-info">
+                <h3 class="pizza-card__title">Mexicana</h3>
+                <p class="pizza-card__text">Chorizo, cebolla, jalapeños</p>
+              </div>
+            </label>
+            <input id="pizza-mexicana" class="radio-input" type="radio" name="pizza" value="mexicana">-->
+      
+          </section>
+
+          <section class="pedidos__add">
+
+              <label for="vivienda" class="pedidos__label">Tipo de vivienda de tu preferencia:</label>
+            <select name="vivienda" id="vivienda" class="pedidos__select">
+              <option value="departamento">Departamento</option>
+              <option value="casa">Casa</option>
+            </select>
+
+
+              <label  for="numhabitaciones" class="pedidos__label">¿Cuantas habitaciones necesitas?</label>
+              <select name="numhabitaciones" id="numhabitaciones" class="num_habitaciones">
+                  <option value="uno">1</option>
+                  <option value="dos">2</option>
+                  <option value="tres">3</option>
+                  <option value="cuatro">4</option>
+                  <option value="cinco">5</option>
+                  <option value="masdecinco">+5</option>
+              </select>
+
+            <label for="size" class="pedidos__label">Tamaño:</label>
+            <select name="size" id="size" class="pedidos__select">
+              <option value="chica">Chica</option>
+              <option value="mediana">Mediana</option>
+              <option value="grande">Grande</option>
+              <option value="familiar">Familiar</option>
+            </select>
+
+            <label for="dough" class="pedidos__label">Tipo de Masa:</label>
+            <select name="dough" id="dough" class="pedidos__select">
+              <option value="original">Original</option>
+              <option value="cunchy">Crunchy</option>
+              <option value="orilla de queso">Orilla rellena de Queso</option>
+              <option value="edgar">Especial de Edgar</option>
+            </select>
+
+            <input type="submit" class="add-button" value="Agregar +">
+          </section>
+
+
+        </form>
+
+
+      </section><section class="checkout">
+        <section class="checkout__info">
+        </section>
+        <button id="order-button" class="order-button">Ordenar</button>
+      </section>
+    </main>
+
+    <section class="ordenes">
+      <ul id="lista"></ul>
+    </section>
+
+    <footer>
+      <p>Hecho con amor ❤️</p>
+    </footer>
+
+    <script src="assets/scripts.js"></script>
+
+  </body>
+</html>
