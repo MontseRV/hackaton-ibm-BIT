@@ -61,13 +61,13 @@ for(let card of pizzaCards) {
 //Función para actualizar el resumen de orden
 function updateCheckout() {
   orderButton.classList.add('active');
-  checkoutInfo.innerHTML = `<h3 class="checkout__title">Resumen de Orden</h3>`;
+  checkoutInfo.innerHTML = `<h3 class="checkout__title">Resumen de tu construcción</h3>`;
   for(let pizza of activeOrder) {
     const pizzaInfo = `
       <article class="checkout__article">
-        <h4 class="article__title">Pizza ${pizza.flavor}</h4>
-        <p><span class="article__span">Tamaño de pizza:</span> ${pizza.size}</p>
-        <p><span class="article__span">Masa de pizza:</span> ${pizza.dough}</p>
+        <h4 class="article__title">Tipo de vivienda: ${pizza.flavor}</h4>
+        <p><span class="article__span">Baños:</span> ${pizza.size}</p>
+        <p><span class="article__span">Preferencia:</span> ${pizza.dough}</p>
       </article>
     `
     checkoutInfo.innerHTML += pizzaInfo;
