@@ -1,6 +1,6 @@
 # INMOBILIARIA VETA DYNAMIC DEVELOPERS"
 
-https://docs.google.com/presentation/d/1_5vUKlTHxfgHLrQ3ZoVQ2eXipbUxcN4qbN3MrHknB3E/edit#slide=id.g5e391cb14b_0_21
+https://docs.google.com/presentation/d/1_5vUKlTHxfgHLrQ3ZoVQ2eXipbUxcN4qbN3MrHknB3E/edit?usp=sharing
 
 ## PRESENTACIÓN DE PROYECTO :chincheta:
 
