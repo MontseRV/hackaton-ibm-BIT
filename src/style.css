@@ -121,6 +121,10 @@
     margin: 10px 10px 0px 150px;
 }
 
+.container .main-style{
+    padding:10px;
+}
+
 .container .main-style h1{
     background: #E0AF45;
     padding:15px;
@@ -160,4 +164,14 @@
 .container .final-section .logo img{
     width: 100px;
     height: auto;
+}
+
+.servicios p{
+    padding:10px;
+    font-weight: bold;
+}
+
+.Espacios p{
+    padding:10px;
+    font-weight: bold;
 }
