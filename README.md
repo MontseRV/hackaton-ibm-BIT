@@ -1,5 +1,7 @@
 # INMOBILIARIA VETA DYNAMIC DEVELOPERS"
 
+https://docs.google.com/presentation/d/1_5vUKlTHxfgHLrQ3ZoVQ2eXipbUxcN4qbN3MrHknB3E/edit#slide=id.g5e391cb14b_0_21
+
 ## PRESENTACIÓN DE PROYECTO :chincheta:
 
 Inmobiliaria Veta Dynamic Developers es una Desarrolladora boutique de productos de inversión inmobiliaria, la cual cuenta con más de 7 años en el mercado.
